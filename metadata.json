@@ -1,0 +1,5 @@
+{
+  "name": "AUIS Help Desk",
+  "description": "AI-Integrated IT Ticket Submission System for AUIS students and faculty. Features ticket management, AI summarization, and admin analytics.",
+  "requestFramePermissions": []
+}

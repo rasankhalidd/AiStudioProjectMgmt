@@ -8,7 +8,8 @@ This lab demonstrates understanding of XML structure, XML Schemas (XSD), and XML
 
 | File | Description |
 |------|-------------|
-| `tree_structures.md` | Visual hierarchical tree diagrams for both Customer and Staff entities |
+| `tree_structures.drawio` | draw.io diagram file with Customer (Page 1) and Staff (Page 2) tree structures — open in [draw.io](https://app.diagrams.net/) |
+| `tree_structures.md` | ASCII hierarchical tree diagrams for both Customer and Staff entities |
 | `customer_schema.xsd` | XML Schema (XSD) defining the structure and data types for the Customer entity |
 | `staff_schema.xsd` | XML Schema (XSD) defining the structure and data types for the Staff entity |
 | `customer.xml` | Sample XML document for a Customer, validated against `customer_schema.xsd` |

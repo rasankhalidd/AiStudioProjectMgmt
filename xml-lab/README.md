@@ -51,7 +51,7 @@ The file `tree_structures.drawio` is a standard draw.io XML file. Choose **any o
 
 ## Entities
 
-Both the **Customer** and **Staff** entities share the same structure:
+### Customer
 
 - **ID** — Unique identifier (string)
 - **Name** — Full name (string)
@@ -62,6 +62,20 @@ Both the **Customer** and **Staff** entities share the same structure:
 - **TelephoneNumber** — Nested element containing:
   - `WorkNumber` — Work phone number (string)
   - `MobileNumber` — Mobile phone number (string)
+
+### Staff
+
+- **ID** — Unique identifier (string)
+- **Position** — Nested element containing:
+  - `Title` — Job title (string)
+  - `Responsibility` — Main responsibilities (string)
+- **Salary** — Nested element containing:
+  - `PartTime` — Part-time salary amount (string, or "N/A")
+  - `FullTime` — Full-time salary amount (string, or "N/A")
+- **Department** — Nested element containing:
+  - `Name` — Department name (string)
+  - `DeskNo` — Desk number (string)
+- **DateJoined** — Date the staff member joined (date, format: YYYY-MM-DD)
 
 ## Group Member
 

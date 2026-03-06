@@ -10,25 +10,32 @@
         <xs:element name="Staff" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="ID"          type="xs:string"/>
-              <xs:element name="Name"        type="xs:string"/>
-              <xs:element name="Address">
+              <xs:element name="ID" type="xs:string"/>
+              <xs:element name="Position">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element name="Street" type="xs:string"/>
-                    <xs:element name="Zip"    type="xs:string"/>
+                    <xs:element name="Title" type="xs:string"/>
+                    <xs:element name="Responsibility" type="xs:string"/>
                   </xs:sequence>
                 </xs:complexType>
               </xs:element>
-              <xs:element name="DateOfBirth" type="xs:date"/>
-              <xs:element name="TelephoneNumber">
+              <xs:element name="Salary">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element name="WorkNumber"   type="xs:string"/>
-                    <xs:element name="MobileNumber" type="xs:string"/>
+                    <xs:element name="PartTime" type="xs:string"/>
+                    <xs:element name="FullTime" type="xs:string"/>
                   </xs:sequence>
                 </xs:complexType>
               </xs:element>
+              <xs:element name="Department">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Name" type="xs:string"/>
+                    <xs:element name="DeskNo" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="DateJoined" type="xs:date"/>
             </xs:sequence>
           </xs:complexType>
         </xs:element>

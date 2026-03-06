@@ -86,43 +86,51 @@
 
         <!-- Staff root node -->
         <mxCell id="s1" value="Staff" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="460" y="40" width="160" height="50" as="geometry"/>
+          <mxGeometry x="480" y="40" width="160" height="50" as="geometry"/>
         </mxCell>
 
         <!-- Level 1: direct children -->
         <mxCell id="s2" value="ID" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="80" y="160" width="120" height="50" as="geometry"/>
+          <mxGeometry x="40" y="160" width="120" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="s3" value="Name" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="260" y="160" width="120" height="50" as="geometry"/>
+        <mxCell id="s3" value="Position" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="210" y="160" width="130" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="s4" value="Address" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="460" y="160" width="160" height="50" as="geometry"/>
+        <mxCell id="s4" value="Salary" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="430" y="160" width="120" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="s5" value="DateOfBirth" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="700" y="160" width="140" height="50" as="geometry"/>
+        <mxCell id="s5" value="Department" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="660" y="160" width="140" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="s6" value="TelephoneNumber" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="910" y="160" width="160" height="50" as="geometry"/>
+        <mxCell id="s6" value="DateJoined" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="920" y="160" width="140" height="50" as="geometry"/>
         </mxCell>
 
-        <!-- Level 2: Address children -->
-        <mxCell id="s7" value="Street" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <!-- Level 2: Position children -->
+        <mxCell id="s7" value="Title" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="150" y="290" width="120" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="s8" value="Responsibility" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="290" y="290" width="140" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Level 2: Salary children -->
+        <mxCell id="s9" value="PartTime" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="400" y="290" width="120" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="s8" value="Zip" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="s10" value="FullTime" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="540" y="290" width="120" height="50" as="geometry"/>
         </mxCell>
 
-        <!-- Level 2: TelephoneNumber children -->
-        <mxCell id="s9" value="WorkNumber" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="850" y="290" width="130" height="50" as="geometry"/>
+        <!-- Level 2: Department children -->
+        <mxCell id="s11" value="Name" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="640" y="290" width="120" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="s10" value="MobileNumber" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="290" width="130" height="50" as="geometry"/>
+        <mxCell id="s12" value="DeskNo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="780" y="290" width="120" height="50" as="geometry"/>
         </mxCell>
 
-        <!-- Edges: Staff -> children -->
+        <!-- Edges: Staff -> Level 1 -->
         <mxCell id="f1" edge="1" source="s1" target="s2" parent="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
@@ -139,19 +147,27 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
 
-        <!-- Edges: Address -> children -->
-        <mxCell id="f6" edge="1" source="s4" target="s7" parent="1">
+        <!-- Edges: Position -> children -->
+        <mxCell id="f6" edge="1" source="s3" target="s7" parent="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="f7" edge="1" source="s4" target="s8" parent="1">
+        <mxCell id="f7" edge="1" source="s3" target="s8" parent="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
 
-        <!-- Edges: TelephoneNumber -> children -->
-        <mxCell id="f8" edge="1" source="s6" target="s9" parent="1">
+        <!-- Edges: Salary -> children -->
+        <mxCell id="f8" edge="1" source="s4" target="s9" parent="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="f9" edge="1" source="s6" target="s10" parent="1">
+        <mxCell id="f9" edge="1" source="s4" target="s10" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Edges: Department -> children -->
+        <mxCell id="f10" edge="1" source="s5" target="s11" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="f11" edge="1" source="s5" target="s12" parent="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
       </root>

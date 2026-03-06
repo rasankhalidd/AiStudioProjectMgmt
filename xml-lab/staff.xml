@@ -4,44 +4,53 @@
 
   <Staff>
     <ID>S001</ID>
-    <Name>Dr Hoger</Name>
-    <Address>
-      <Street>10 University Street</Street>
-      <Zip>44001</Zip>
-    </Address>
-    <DateOfBirth>1975-05-12</DateOfBirth>
-    <TelephoneNumber>
-      <WorkNumber>+964-66-456-7890</WorkNumber>
-      <MobileNumber>+964-750-456-7890</MobileNumber>
-    </TelephoneNumber>
+    <Position>
+      <Title>Professor</Title>
+      <Responsibility>Teaching and Research</Responsibility>
+    </Position>
+    <Salary>
+      <PartTime>N/A</PartTime>
+      <FullTime>1500000 IQD</FullTime>
+    </Salary>
+    <Department>
+      <Name>Computer Science</Name>
+      <DeskNo>101</DeskNo>
+    </Department>
+    <DateJoined>2005-09-01</DateJoined>
   </Staff>
 
   <Staff>
     <ID>S002</ID>
-    <Name>Dr Barzy</Name>
-    <Address>
-      <Street>3 College Road</Street>
-      <Zip>36001</Zip>
-    </Address>
-    <DateOfBirth>1980-02-28</DateOfBirth>
-    <TelephoneNumber>
-      <WorkNumber>+964-62-567-8901</WorkNumber>
-      <MobileNumber>+964-770-567-8901</MobileNumber>
-    </TelephoneNumber>
+    <Position>
+      <Title>Associate Professor</Title>
+      <Responsibility>Teaching</Responsibility>
+    </Position>
+    <Salary>
+      <PartTime>N/A</PartTime>
+      <FullTime>1200000 IQD</FullTime>
+    </Salary>
+    <Department>
+      <Name>Information Technology</Name>
+      <DeskNo>205</DeskNo>
+    </Department>
+    <DateJoined>2010-02-15</DateJoined>
   </Staff>
 
   <Staff>
     <ID>S003</ID>
-    <Name>Dr Shko</Name>
-    <Address>
-      <Street>8 Knowledge Avenue</Street>
-      <Zip>46001</Zip>
-    </Address>
-    <DateOfBirth>1983-09-17</DateOfBirth>
-    <TelephoneNumber>
-      <WorkNumber>+964-53-678-9012</WorkNumber>
-      <MobileNumber>+964-771-678-9012</MobileNumber>
-    </TelephoneNumber>
+    <Position>
+      <Title>Lecturer</Title>
+      <Responsibility>Teaching and Lab Supervision</Responsibility>
+    </Position>
+    <Salary>
+      <PartTime>600000 IQD</PartTime>
+      <FullTime>N/A</FullTime>
+    </Salary>
+    <Department>
+      <Name>Software Engineering</Name>
+      <DeskNo>312</DeskNo>
+    </Department>
+    <DateJoined>2018-08-20</DateJoined>
   </Staff>
 
 </StaffList>

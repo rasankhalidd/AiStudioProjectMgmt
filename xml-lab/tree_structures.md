@@ -20,12 +20,14 @@ Customer
 ```
 Staff
 ├── ID
-├── Name
-├── Address
-│   ├── Street
-│   └── Zip
-├── DateOfBirth
-└── TelephoneNumber
-    ├── WorkNumber
-    └── MobileNumber
+├── Position
+│   ├── Title
+│   └── Responsibility
+├── Salary
+│   ├── PartTime
+│   └── FullTime
+├── Department
+│   ├── Name
+│   └── DeskNo
+└── DateJoined
 ```

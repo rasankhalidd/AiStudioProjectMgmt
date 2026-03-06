@@ -1,46 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-
-  <!-- Root element that holds all staff members -->
+<?xml>
+<xs:schema>
   <xs:element name="StaffList">
     <xs:complexType>
-      <xs:sequence>
-
-        <!-- Each Staff element can appear one or more times -->
-        <xs:element name="Staff" maxOccurs="unbounded">
+        <xs:element name="Staff">
           <xs:complexType>
-            <xs:sequence>
               <xs:element name="ID" type="xs:string"/>
               <xs:element name="Position">
                 <xs:complexType>
-                  <xs:sequence>
                     <xs:element name="Title" type="xs:string"/>
                     <xs:element name="Responsibility" type="xs:string"/>
-                  </xs:sequence>
                 </xs:complexType>
               </xs:element>
               <xs:element name="Salary">
                 <xs:complexType>
-                  <xs:sequence>
                     <xs:element name="PartTime" type="xs:string"/>
                     <xs:element name="FullTime" type="xs:string"/>
-                  </xs:sequence>
                 </xs:complexType>
               </xs:element>
               <xs:element name="Department">
                 <xs:complexType>
-                  <xs:sequence>
                     <xs:element name="Name" type="xs:string"/>
                     <xs:element name="DeskNo" type="xs:string"/>
-                  </xs:sequence>
                 </xs:complexType>
               </xs:element>
               <xs:element name="DateJoined" type="xs:date"/>
-            </xs:sequence>
           </xs:complexType>
         </xs:element>
-
-      </xs:sequence>
     </xs:complexType>
   </xs:element>
 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Staff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="staff_schema.xsd">
+  <ID>S001</ID>
+  <Name>Omar Khalil</Name>
+  <Address>
+    <Street>12 Maple Street</Street>
+    <Zip>20445</Zip>
+  </Address>
+  <DateOfBirth>1988-11-23</DateOfBirth>
+  <TelephoneNumber>
+    <WorkNumber>+44-20-7123-4567</WorkNumber>
+    <MobileNumber>+44-7700-900123</MobileNumber>
+  </TelephoneNumber>
+</Staff>

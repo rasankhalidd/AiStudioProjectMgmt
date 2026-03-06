@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Customer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="customer_schema.xsd">
+  <ID>C001</ID>
+  <Name>Sara Ahmed</Name>
+  <Address>
+    <Street>45 Oak Avenue</Street>
+    <Zip>10115</Zip>
+  </Address>
+  <DateOfBirth>1995-04-12</DateOfBirth>
+  <TelephoneNumber>
+    <WorkNumber>+44-20-7946-0958</WorkNumber>
+    <MobileNumber>+44-7911-123456</MobileNumber>
+  </TelephoneNumber>
+</Customer>

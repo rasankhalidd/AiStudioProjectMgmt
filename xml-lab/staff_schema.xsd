@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="Staff">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ID" type="xs:string"/>
+        <xs:element name="Name" type="xs:string"/>
+        <xs:element name="Address">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Street" type="xs:string"/>
+              <xs:element name="Zip" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DateOfBirth" type="xs:date"/>
+        <xs:element name="TelephoneNumber">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="WorkNumber" type="xs:string"/>
+              <xs:element name="MobileNumber" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

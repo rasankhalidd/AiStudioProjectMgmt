@@ -1,28 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-  <xs:element name="Customer">
+  <!-- Root element that holds all customers -->
+  <xs:element name="Customers">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="ID" type="xs:string"/>
-        <xs:element name="Name" type="xs:string"/>
-        <xs:element name="Address">
+
+        <!-- Each Customer element can appear one or more times -->
+        <xs:element name="Customer" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="Street" type="xs:string"/>
-              <xs:element name="Zip" type="xs:string"/>
+              <xs:element name="ID"          type="xs:string"/>
+              <xs:element name="Name"        type="xs:string"/>
+              <xs:element name="Address">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Street" type="xs:string"/>
+                    <xs:element name="Zip"    type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="DateOfBirth" type="xs:date"/>
+              <xs:element name="TelephoneNumber">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="WorkNumber"   type="xs:string"/>
+                    <xs:element name="MobileNumber" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="DateOfBirth" type="xs:date"/>
-        <xs:element name="TelephoneNumber">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element name="WorkNumber" type="xs:string"/>
-              <xs:element name="MobileNumber" type="xs:string"/>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
+
       </xs:sequence>
     </xs:complexType>
   </xs:element>

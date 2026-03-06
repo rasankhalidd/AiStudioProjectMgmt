@@ -1,15 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Staff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:noNamespaceSchemaLocation="staff_schema.xsd">
-  <ID>S001</ID>
-  <Name>Omar Khalil</Name>
-  <Address>
-    <Street>12 Maple Street</Street>
-    <Zip>20445</Zip>
-  </Address>
-  <DateOfBirth>1988-11-23</DateOfBirth>
-  <TelephoneNumber>
-    <WorkNumber>+44-20-7123-4567</WorkNumber>
-    <MobileNumber>+44-7700-900123</MobileNumber>
-  </TelephoneNumber>
-</Staff>
+<StaffList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="staff_schema.xsd">
+
+  <Staff>
+    <ID>S001</ID>
+    <Name>Dr Hoger</Name>
+    <Address>
+      <Street>10 University Street</Street>
+      <Zip>44001</Zip>
+    </Address>
+    <DateOfBirth>1975-05-12</DateOfBirth>
+    <TelephoneNumber>
+      <WorkNumber>+964-66-456-7890</WorkNumber>
+      <MobileNumber>+964-750-456-7890</MobileNumber>
+    </TelephoneNumber>
+  </Staff>
+
+  <Staff>
+    <ID>S002</ID>
+    <Name>Dr Barzy</Name>
+    <Address>
+      <Street>3 College Road</Street>
+      <Zip>36001</Zip>
+    </Address>
+    <DateOfBirth>1980-02-28</DateOfBirth>
+    <TelephoneNumber>
+      <WorkNumber>+964-62-567-8901</WorkNumber>
+      <MobileNumber>+964-770-567-8901</MobileNumber>
+    </TelephoneNumber>
+  </Staff>
+
+  <Staff>
+    <ID>S003</ID>
+    <Name>Dr Shko</Name>
+    <Address>
+      <Street>8 Knowledge Avenue</Street>
+      <Zip>46001</Zip>
+    </Address>
+    <DateOfBirth>1983-09-17</DateOfBirth>
+    <TelephoneNumber>
+      <WorkNumber>+964-53-678-9012</WorkNumber>
+      <MobileNumber>+964-771-678-9012</MobileNumber>
+    </TelephoneNumber>
+  </Staff>
+
+</StaffList>

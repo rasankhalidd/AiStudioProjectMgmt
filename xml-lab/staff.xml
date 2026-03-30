@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StaffList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="staff_schema.xsd">
+
+  <Staff>
+    <ID>S001</ID>
+    <Position>
+      <Title>Professor</Title>
+      <Responsibility>Teaching and Research</Responsibility>
+    </Position>
+    <Salary>
+      <PartTime>N/A</PartTime>
+      <FullTime>1500000 IQD</FullTime>
+    </Salary>
+    <Department>
+      <Name>Computer Science</Name>
+      <DeskNo>101</DeskNo>
+    </Department>
+    <DateJoined>2005-09-01</DateJoined>
+  </Staff>
+
+  <Staff>
+    <ID>S002</ID>
+    <Position>
+      <Title>Associate Professor</Title>
+      <Responsibility>Teaching</Responsibility>
+    </Position>
+    <Salary>
+      <PartTime>N/A</PartTime>
+      <FullTime>1200000 IQD</FullTime>
+    </Salary>
+    <Department>
+      <Name>Information Technology</Name>
+      <DeskNo>205</DeskNo>
+    </Department>
+    <DateJoined>2010-02-15</DateJoined>
+  </Staff>
+
+  <Staff>
+    <ID>S003</ID>
+    <Position>
+      <Title>Lecturer</Title>
+      <Responsibility>Teaching and Lab Supervision</Responsibility>
+    </Position>
+    <Salary>
+      <PartTime>600000 IQD</PartTime>
+      <FullTime>N/A</FullTime>
+    </Salary>
+    <Department>
+      <Name>Software Engineering</Name>
+      <DeskNo>312</DeskNo>
+    </Department>
+    <DateJoined>2018-08-20</DateJoined>
+  </Staff>
+
+</StaffList>

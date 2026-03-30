@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Customers >
+
+  <Customer>
+    <ID>\</ID>
+    <Name>Rasan Khalid</Name>
+    <Address>
+      <Street>15 Kirkuk Road</Street>
+      <Zip>36001</Zip>
+    </Address>
+    <DateOfBirth>2000-03-21</DateOfBirth>
+    <TelephoneNumber>
+      <WorkNumber>+964-53-123-4567</WorkNumber>
+      <MobileNumber>+964-750-123-4567</MobileNumber>
+    </TelephoneNumber>
+  </Customer>
+
+  <Customer>
+    <ID>C002</ID>
+    <Name>Las Abdalrahman</Name>
+    <Address>
+      <Street>7 Sulaymaniyah Street</Street>
+      <Zip>46001</Zip>
+    </Address>
+    <DateOfBirth>1998-07-15</DateOfBirth>
+    <TelephoneNumber>
+      <WorkNumber>+964-53-234-5678</WorkNumber>
+      <MobileNumber>+964-770-234-5678</MobileNumber>
+    </TelephoneNumber>
+  </Customer>
+
+  <Customer>
+    <ID>C003</ID>
+    <Name>Saros Saman</Name>
+    <Address>
+      <Street>22 Erbil Avenue</Street>
+      <Zip>44001</Zip>
+    </Address>
+    <DateOfBirth>2001-11-09</DateOfBirth>
+    <TelephoneNumber>
+      <WorkNumber>+964-66-345-6789</WorkNumber>
+      <MobileNumber>+964-771-345-6789</MobileNumber>
+    </TelephoneNumber>
+  </Customer>
+
+</Customers>
